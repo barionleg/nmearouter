@@ -1,5 +1,7 @@
 # NMEA Router
 
+untill start https://www.rtl-sdr.com/aisrec-windows-and-android-ais-decoder/
+
 Written by Neal Arundale (deceased), this has been uploaded to GitHub so that others can use it.
 Routes AIS and other NMEA sentences between Serial, UDP, TCP, USB, Internet, Log Files, TTY Display Windows
 
