@@ -1,6 +1,9 @@
 # NMEA Router
 
 Written by Neal Arundale (deceased), this has been uploaded to GitHub so that others can use it.
+Routes AIS and other NMEA sentences between Serial, UDP, TCP, USB, Internet, Log Files, TTY Display Windows
+
+Overview NmeaRouter routes NMEA sentences from a Source (for example an AIS Receiver Serial Port) to a Destination (for example a Local Network Ethernet). A Source or a Destination is called a Connection. Connections can be External to the PC (for example a Serial/USB or Network) or Internal (for example a File or a Display Window). A Source is linked to a Destination by a Route (for example the data from an AIS Receiver being routed to an AIS Chart Display). The program has been developed with AIS data in mind, AIS data is encapsulated within one type of NMEA sentence. There are hundreds of different NMEA sentences of which AIS and GPS data are but two, so the Router should handle any data conforming to NMEA standards.
 
 # Registration
 
